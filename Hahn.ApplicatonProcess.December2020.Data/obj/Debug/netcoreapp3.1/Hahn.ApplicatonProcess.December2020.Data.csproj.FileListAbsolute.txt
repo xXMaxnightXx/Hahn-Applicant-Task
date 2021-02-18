@@ -1,0 +1,15 @@
+C:\Users\Maxnight\Desktop\Hahn-master\Hahn.ApplicatonProcess.December2020.Data\bin\Debug\netcoreapp3.1\Hahn.ApplicatonProcess.December2020.Data.deps.json
+C:\Users\Maxnight\Desktop\Hahn-master\Hahn.ApplicatonProcess.December2020.Data\bin\Debug\netcoreapp3.1\Hahn.ApplicatonProcess.December2020.Data.runtimeconfig.json
+C:\Users\Maxnight\Desktop\Hahn-master\Hahn.ApplicatonProcess.December2020.Data\bin\Debug\netcoreapp3.1\Hahn.ApplicatonProcess.December2020.Data.runtimeconfig.dev.json
+C:\Users\Maxnight\Desktop\Hahn-master\Hahn.ApplicatonProcess.December2020.Data\bin\Debug\netcoreapp3.1\Hahn.ApplicatonProcess.December2020.Data.dll
+C:\Users\Maxnight\Desktop\Hahn-master\Hahn.ApplicatonProcess.December2020.Data\bin\Debug\netcoreapp3.1\Hahn.ApplicatonProcess.December2020.Data.pdb
+C:\Users\Maxnight\Desktop\Hahn-master\Hahn.ApplicatonProcess.December2020.Data\bin\Debug\netcoreapp3.1\Hahn.ApplicatonProcess.December2020.Models.dll
+C:\Users\Maxnight\Desktop\Hahn-master\Hahn.ApplicatonProcess.December2020.Data\bin\Debug\netcoreapp3.1\Hahn.ApplicatonProcess.December2020.Models.pdb
+C:\Users\Maxnight\Desktop\Hahn-master\Hahn.ApplicatonProcess.December2020.Data\obj\Debug\netcoreapp3.1\Hahn.ApplicatonProcess.December2020.Data.csprojAssemblyReference.cache
+C:\Users\Maxnight\Desktop\Hahn-master\Hahn.ApplicatonProcess.December2020.Data\obj\Debug\netcoreapp3.1\Hahn.ApplicatonProcess.December2020.Data.AssemblyInfoInputs.cache
+C:\Users\Maxnight\Desktop\Hahn-master\Hahn.ApplicatonProcess.December2020.Data\obj\Debug\netcoreapp3.1\Hahn.ApplicatonProcess.December2020.Data.AssemblyInfo.cs
+C:\Users\Maxnight\Desktop\Hahn-master\Hahn.ApplicatonProcess.December2020.Data\obj\Debug\netcoreapp3.1\Hahn.ApplicatonProcess.December2020.Data.csproj.CoreCompileInputs.cache
+C:\Users\Maxnight\Desktop\Hahn-master\Hahn.ApplicatonProcess.December2020.Data\obj\Debug\netcoreapp3.1\Hahn.ApplicatonProcess.December2020.Data.csproj.CopyComplete
+C:\Users\Maxnight\Desktop\Hahn-master\Hahn.ApplicatonProcess.December2020.Data\obj\Debug\netcoreapp3.1\Hahn.ApplicatonProcess.December2020.Data.dll
+C:\Users\Maxnight\Desktop\Hahn-master\Hahn.ApplicatonProcess.December2020.Data\obj\Debug\netcoreapp3.1\Hahn.ApplicatonProcess.December2020.Data.pdb
+C:\Users\Maxnight\Desktop\Hahn-master\Hahn.ApplicatonProcess.December2020.Data\obj\Debug\netcoreapp3.1\Hahn.ApplicatonProcess.December2020.Data.genruntimeconfig.cache

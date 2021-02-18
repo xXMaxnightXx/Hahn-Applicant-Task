@@ -1,0 +1,18 @@
+2021-02-12 02:33:32.240 +01:00 [Information] Application started. Press Ctrl+C to shut down.
+2021-02-12 02:33:32.301 +01:00 [Information] Hosting environment: "Development"
+2021-02-12 02:33:32.303 +01:00 [Information] Content root path: "C:\Users\Maxnight\Desktop\Hahn-master\Hahn.ApplicatonProcess.December2020.Api"
+2021-02-12 02:37:19.093 +01:00 [Information] Application started. Press Ctrl+C to shut down.
+2021-02-12 02:37:19.143 +01:00 [Information] Hosting environment: "Development"
+2021-02-12 02:37:19.145 +01:00 [Information] Content root path: "C:\Users\Maxnight\Desktop\Hahn-master\Hahn.ApplicatonProcess.December2020.Api"
+2021-02-12 02:45:50.175 +01:00 [Information] Application started. Press Ctrl+C to shut down.
+2021-02-12 02:45:50.223 +01:00 [Information] Hosting environment: "Development"
+2021-02-12 02:45:50.225 +01:00 [Information] Content root path: "C:\Users\Maxnight\Desktop\Hahn-master\Hahn.ApplicatonProcess.December2020.Api"
+2021-02-12 02:46:08.804 +01:00 [Information] Application started. Press Ctrl+C to shut down.
+2021-02-12 02:46:08.855 +01:00 [Information] Hosting environment: "Development"
+2021-02-12 02:46:08.857 +01:00 [Information] Content root path: "C:\Users\Maxnight\Desktop\Hahn-master\Hahn.ApplicatonProcess.December2020.Api"
+2021-02-12 03:00:41.005 +01:00 [Information] Application started. Press Ctrl+C to shut down.
+2021-02-12 03:00:41.071 +01:00 [Information] Hosting environment: "Development"
+2021-02-12 03:00:41.073 +01:00 [Information] Content root path: "C:\Users\Maxnight\Desktop\Hahn-master\Hahn.ApplicatonProcess.December2020.Api"
+2021-02-12 03:17:16.967 +01:00 [Information] Application started. Press Ctrl+C to shut down.
+2021-02-12 03:17:17.002 +01:00 [Information] Hosting environment: "Development"
+2021-02-12 03:17:17.004 +01:00 [Information] Content root path: "C:\Users\Maxnight\Desktop\Hahn-master\Hahn.ApplicatonProcess.December2020.Api"

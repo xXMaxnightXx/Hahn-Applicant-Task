@@ -1,0 +1,108 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Hahn.ApplicatonProcess.December2020.Api</name>
+    </assembly>
+    <members>
+        <member name="M:Hahn.ApplicatonProcess.December2020.Api.Controllers.ApplicantController.CreateApplicant(Hahn.ApplicatonProcess.December2020.Data.Models.Applicant)">
+            <summary>
+            Creates a new  Applicant.
+            </summary>
+            <remarks>
+            Sample request:
+            
+                POST api/CreateApplicant
+                {        
+                  "Name": "Matthias",
+                  "FamilyName": "Plottke",
+                  "Address": "Pürschläger Weg 5" ,
+                  "CountryOfOrigin":"Deutschland",
+                  "EmailAddress":"Matthias.Plottke@WiBiZu.de",
+                  "Age":38,
+                  "Hired":false
+                }
+            </remarks>
+            <param name="applicant"></param>    
+            <returns>A url of newly created applicant</returns>
+            <response code="201">Returns a url of newly created applicant</response>
+            <response code="400">Returns, errors,if the applicant object is invalid</response>     
+        </member>
+        <member name="M:Hahn.ApplicatonProcess.December2020.Api.Controllers.ApplicantController.UpdateApplicant(Hahn.ApplicatonProcess.December2020.Data.Models.Applicant)">
+             <summary>
+            Updates an existing applicant.
+             </summary>
+             <remarks>
+             Sample request:
+             
+                 POST api/UpdateApplicant
+                 {  id:"1",      
+                   "Name": "Matthias",
+                   "FamilyName": "Plottke",
+                   "Address": "Pürschläger Weg 5" ,
+                   "CountryOfOrigin":"Deutschland",
+                   "EmailAddress":"Matthias.Plottke@WiBiZu.de",
+                   "Age":38,
+                   "Hired":false
+                 }
+             </remarks>
+             <param name="applicant"></param>    
+             <response code="201">Returns the object of updated applicant</response>
+             <response code="400">Returns errors, if the applicant object is invalid</response> 
+        </member>
+        <member name="M:Hahn.ApplicatonProcess.December2020.Api.Controllers.ApplicantController.GetAllApplicants">
+             <summary>
+            Retrieves all applicants.
+             </summary>
+             <remarks>
+             Sample request:
+             
+                 GET api/GetAllApplicants
+             </remarks>  
+             <response code="200">Returns the objects of existing applicants</response>
+             <response code="200">Returns No content if no existing applicants </response>
+        </member>
+        <member name="M:Hahn.ApplicatonProcess.December2020.Api.Controllers.ApplicantController.GetApplicantById(System.Int32)">
+             <summary>
+            Retrieves single applicant by Id.
+             </summary>
+             <remarks>
+             Sample request:
+             
+                 GET api/GetApplicantById/1
+             </remarks>
+             <param name="id"></param>    
+             <response code="200">Returns the object existing applicant by Id</response>
+             <response code="200">Returns No Content </response>
+             <response code="400">Returns Invalid parameter </response>
+        </member>
+        <member name="M:Hahn.ApplicatonProcess.December2020.Api.Controllers.ApplicantController.DeleteApplicantById(System.Int32)">
+             <summary>
+            Delete single applicant by Id.
+             </summary>
+             <remarks>
+             Sample request:
+             
+                 GET api/DeleteApplicantById/1
+             </remarks>
+             <param name="id"></param>    
+             <response code="200">Returns Success if deletion successful</response>
+             <response code="200">Returns No Content if no matching applicant </response>
+             <response code="400">Returns Invalid parameter </response>
+        </member>
+        <member name="M:Hahn.ApplicatonProcess.December2020.Api.Controllers.ApplicantController.SearchApplicants(System.String)">
+             <summary>
+            Search applicants by Name and Family name.
+             </summary>
+             <remarks>
+             Sample request:
+             
+                 POST api/SearchApplicants
+                 "Matthias"
+            
+             </remarks>  
+             <response code="200">Returns Success if match found</response>
+             <response code="204">Returns No Content if no matching applicant </response>
+             <response code="400">Returns Invalid parameter </response>
+        </member>
+    </members>
+</doc>
