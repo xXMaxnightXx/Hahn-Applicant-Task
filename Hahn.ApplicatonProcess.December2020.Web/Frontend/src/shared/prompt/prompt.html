@@ -1,0 +1,16 @@
+<template>
+    <ux-dialog>
+        <uh-dialog-header>
+            <div class="border p-2">
+                ${title}
+            </div>
+        </uh-dialog-header>
+        <ux-dialog-body>
+            <p innerhtml.bind="message"></p>
+        </ux-dialog-body>
+        <ux-dialog-footer>
+            <button click.trigger="controller.cancel()" show.bind="hideCloseButton"><span i18n="Button.Cancel" >Cancel</span></button>
+            <button click.trigger="controller.ok()"><span i18n="Button.Ok" >Ok</span></button>
+        </ux-dialog-footer>
+    </ux-dialog>
+</template>

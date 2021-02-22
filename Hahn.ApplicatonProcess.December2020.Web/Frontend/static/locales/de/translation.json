@@ -1,0 +1,44 @@
+{
+  "title": "Hahn Applilcation",
+  "Application": {
+    "Id": "Id",
+    "Name": "Namen",
+    "FamilyName": "Familienname",
+    "Country": "Land",
+    "Email": "E-mail",
+    "Hired": "Eingestellt",
+    "Address": "Adresse",
+    "Age": "Alter",
+    "ResetConfirmationMessage": "Möchten Sie wirklich alle Felder zurücksetzen?",
+    "ConfirmationTitle": "Bitte bestätigen Sie",
+    "AppHeader": "Neue hinzufügen",
+    "ApplicantCreated": "Bewerber erfolgreich erstellt",
+    "ApplicantTitle": "Bewerber erstellt",
+    "ValidationTitle": "Bitte überprüfen Sie"
+  },
+  "Button": {
+    "Ok": "Okay",
+    "Reset": "Zurücksetzen",
+    "Save": "Senden",
+    "Cancel": "Abbrechen"
+  },
+  "errorMessages": {
+    "IdRequired": "Bitte bestätigen Sie.",
+    "EmailRequired": "E-Mail darf nicht leer sein.",
+    "AgeRequired": "Das Alter darf nicht leer sein.",
+    "AgeRange": "Das Alter sollte zwischen 20 und 60 Jahren liegen.",
+    "EmailFormat": "E-Mail sollte im richtigen Format vorliegen"
+  },
+  "ApplicantList": {
+    "Id": "Id",
+    "Name": "Namen",
+    "FamilyName": "Familienname",
+    "Country": "Land",
+    "Email": "E-mail",
+    "Hired": "Eingestellt",
+    "Address": "Adresse",
+    "Age": "Alter",
+    "Heading": "Bewerberliste",
+    "Refresh": "Aktualisieren"
+  }
+}

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "M5aeZ0B4ulmYXPKoD5kdwiFWcFa8Mi2Mc8C3fjiU6YW0ypsxBlPsQv7BK/cyO8iNK9SrQGNno6sK3Sle1I2hlg==",
+  "dgSpecHash": "3L0daYGu0wptZj2wOOzr2eb09yYOW10iOjUIzH/2z5gUh8jCa4FqbH2CPxlK0Ys/ZQiHCLi8KwwwdcTE5m87zg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Maxnight\\Desktop\\Hahn-master\\Hahn.ApplicatonProcess.December2020.Domain\\Hahn.ApplicatonProcess.December2020.Domain.csproj",
+  "projectFilePath": "C:\\Users\\Maxnight\\Desktop\\Hahn-Applicant-Task\\Hahn.ApplicatonProcess.December2020.Domain\\Hahn.ApplicatonProcess.December2020.Domain.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Maxnight\\.nuget\\packages\\entityframework\\6.4.4\\entityframework.6.4.4.nupkg.sha512",
     "C:\\Users\\Maxnight\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",

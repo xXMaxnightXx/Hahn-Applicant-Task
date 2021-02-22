@@ -1,0 +1,44 @@
+{
+    "title":"Hahn Applilcation",
+  "Application": {
+    "Id": "Id",
+    "Name": "Name",
+    "FamilyName": "Family Name",
+    "Country": "Country",
+    "Email": "Email",
+    "Hired": "Hired",
+    "Address": "Address",
+    "Age": "Age",
+    "ResetConfirmationMessage": "Are you sure you want to reset all the fields?",
+    "ConfirmationTitle": "Please confirm",
+    "AppHeader": "Add New",
+    "ApplicantCreated": "Applicant created successfully",
+    "ApplicantTitle": "Applicant created",
+    "ValidationTitle": "Please check"
+  },
+    "Button":{
+        "Ok": "Ok",
+        "Reset": "Reset",
+        "Save": "Send",
+        "Cancel":"Cancel"
+    },
+  "errorMessages": {
+    "IdRequired": "Id cannot be blank.",
+    "EmailRequired": "Email can not be blank.",
+    "AgeRequired": "Age can not be blank.",
+    "AgeRange": "Age should be between 20 and 60.",
+    "EmailFormat": "Email should be in correct format"
+  },
+  "ApplicantList": {
+    "Id": "Id",
+    "Name": "Name",
+    "FamilyName": "Family Name",
+    "Country": "Country",
+    "Email": "Email",
+    "Hired": "Hired",
+    "Address": "Address",
+    "Age": "Age",
+    "Heading": "Applicant List",
+    "Refresh": "Refresh"
+  }
+}

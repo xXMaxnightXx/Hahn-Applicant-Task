@@ -1,0 +1,13 @@
+  
+.validation-message{
+    color: red;
+      margin-left: 27.5%;
+      font-size: 13px;
+  }
+  .has-error input{
+      border: solid 1px red;
+  }
+  .btn-primary.disabled, .btn-primary:disabled {
+      background-color: #007bff6e!important;  
+  }
+  

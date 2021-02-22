@@ -1,0 +1,24 @@
+<template>
+  <require from="../styles/applicants.css"></require>
+  <div class="card">
+    <div class="card-header">
+      <div class="row">
+        <div class="col-sm-6"><span i18n="ApplicantList.Heading">Add Applicant </span></div>
+        <div class="col-sm-6 text-right">
+          <button id="refresh" click.delegate="refresh()" class="btn-primary btn">
+            <span i18n="ApplicantList.Refresh">
+              Refresh
+            </span>
+          </button>
+        </div>
+      </div>
+    </div>
+    <div class="card-body">
+      <aurelia-table columns.bind="columns" rows.bind="rows">
+        <template replace-part="header">
+          <h3 class="panel-header">${header} (${rows.length})</h3>
+        </template>
+      </aurelia-table>
+    </div>
+  </div>
+</template>

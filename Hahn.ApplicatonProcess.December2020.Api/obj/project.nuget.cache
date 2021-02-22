@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "40/JWcKeBSIqww1xWj8hg+jC1UdLzO8X/+5K3iYBAOSvOu6TvyWtsBTC04nvfcMnf6BLerfiHcT2c2uEkolL8Q==",
+  "dgSpecHash": "7g47a3ejJL5FnkaZ5xWxYo+sPD3dyYLIJ3kUzQZfdhu0y9jdI9xnU+9rYWOeVqhHEz1JF0EQ9d7DEsu0rXVN4Q==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Maxnight\\Desktop\\Hahn-master\\Hahn.ApplicatonProcess.December2020.Api\\Hahn.ApplicatonProcess.December2020.Api.csproj",
+  "projectFilePath": "C:\\Users\\Maxnight\\Desktop\\Hahn-Applicant-Task\\Hahn.ApplicatonProcess.December2020.Api\\Hahn.ApplicatonProcess.December2020.Api.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Maxnight\\.nuget\\packages\\entityframework\\6.4.4\\entityframework.6.4.4.nupkg.sha512",
     "C:\\Users\\Maxnight\\.nuget\\packages\\fluentvalidation\\9.3.0\\fluentvalidation.9.3.0.nupkg.sha512",

@@ -1,0 +1,44 @@
+{
+  "title": "Hahn Zastosowanie",
+  "Application": {
+    "Id": "Id",
+    "Name": "Nazwy",
+    "FamilyName": "Nazwa rodziny",
+    "Country": "Kraj",
+    "Email": "E-mail",
+    "Hired": "Posted",
+    "Address": "Adres",
+    "Age": "Wiek",
+    "ResetConfirmationMessage": "Czy naprawdę chcesz zresetować wszystkie pola?",
+    "ConfirmationTitle": "Proszę potwierdzić",
+    "AppHeader": "Dodaj nowy",
+    "ApplicantCreated": "Wnioskodawca utworzony z powodzeniem",
+    "ApplicantTitle": "Utworzony przez wnioskodawcę",
+    "ValidationTitle": "Proszę sprawdzić"
+  },
+  "Button": {
+    "Ok": "Dobra",
+    "Reset": "Reset",
+    "Save": "Wyślij",
+    "Cancel": "Anuluj"
+  },
+  "errorMessages": {
+    "IdRequired": "Proszę potwierdzić.",
+    "EmailRequired": "E-mail nie może być pusty.",
+    "AgeRequired": "Wiek nie może być pusty.",
+    "AgeRange": "Wiek powinien mieścić się w przedziale od 20 do 60 lat.",
+    "EmailFormat": "E-mail powinien być w odpowiednim formacie"
+  },
+  "ApplicantList": {
+    "Id": "Id",
+    "Name": "Nazwy",
+    "FamilyName": "Nazwa rodziny",
+    "Country": "Kraj",
+    "Email": "E-mail",
+    "Hired": "Posted",
+    "Address": "Adres",
+    "Age": "Wiek",
+    "Heading": "Lista wnioskodawców",
+    "Refresh": "Aktualizacja"
+  }
+}

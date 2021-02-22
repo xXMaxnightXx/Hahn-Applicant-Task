@@ -1,0 +1,62 @@
+.applicants-form {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.applicants-form-item {
+  flex: 2 0 45%;
+  margin-bottom: 10px;
+  padding: 7px;
+  position: relative;
+}
+
+.applicants-form-item label {
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.applicants-form-item input {
+  border: none;
+  box-shadow: 1px 1px 4px rgba(39, 39, 39, 0.5);
+  display: block;
+  font-size: 12px;
+  height: 25px;
+  margin-top: 5px;
+  padding-left: 5px;
+  width: 80%;
+}
+
+.applicants-button {
+  margin-right: 20px;
+  text-align: right;
+  width: 100%;
+}
+
+.applicants-save {
+  background-color: #add9f4;
+  box-shadow: 1px 1px 4px rgba(39, 39, 39, 0.5);
+  border: none;
+  color: black;
+  cursor: pointer;
+  display: inline-block;
+  font-size: 12px;
+  margin-top: 5px;
+  padding: 7px;
+  text-align: center;
+}
+
+.applicants-save:hover {
+  background-color: #7AA6C1;
+}
+
+.applicants-cancel {
+  font-size: 12px;
+  margin-left: 5px;
+  text-decoration: underline;
+}
+button.applicants-cancel {
+  background: none;
+  border: none;
+  color: white;
+  cursor: pointer;
+}

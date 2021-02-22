@@ -1,0 +1,71 @@
+.applicants {
+  background: #468c98;
+  box-shadow: 1px 1px 4px rgba(39, 39, 39, 0.5);
+  margin: 30px 0;
+  max-width: 700px;
+  padding: 10px;
+  text-align: left;
+}
+
+.applicants h2 {
+  text-align: center;
+}
+
+.applicants a {
+  text-decoration: none;
+}
+
+.applicant-list {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.applicants-item {
+  flex: 2 0 45%;
+  margin-bottom: 10px;
+  padding: 7px;
+  position: relative;
+}
+
+.applicants-item:last-child {
+  max-width: 48%;
+}
+
+.applicants-item:hover {
+  background: #2D737F;
+}
+
+.applicants-item:hover .contacts-item-name {
+  color: white;
+}
+
+.applicants-item-name {
+  color: #101419;
+  font-weight: bold;
+}
+
+.applicants-item-text {
+  font-size: 14px;
+}
+
+
+.applicants-item-edit,
+.applicants-item-remove {
+  background-color: #add9f4;
+  box-shadow: 1px 1px 4px rgba(39, 39, 39, 0.5);
+  color: black;
+  display: inline-block;
+  font-size: 12px;
+  margin-top: 5px;
+  padding: 10px;
+  text-align: center;
+}
+
+.applicants-item-edit:hover,
+.applicants-item-remove:hover {
+  background-color: #7AA6C1;
+}
+
+.applicants-return {
+  text-decoration: none;
+}

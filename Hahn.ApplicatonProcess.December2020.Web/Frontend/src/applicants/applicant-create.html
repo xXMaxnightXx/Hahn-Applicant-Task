@@ -1,0 +1,88 @@
+<template>
+  <require from="./applicant-create.css"></require>
+
+  <section class="au-animate">
+    <div class="card">
+      <div class="card-header">
+        <span i18n="Application.AppHeader">Applicant List</span>        
+      </div>
+      <div class="card-body">
+        <form class="mt-4">
+          <div class="form-group row">
+            <label class="col-3 col-form-label" for="text"><span i18n="Application.Id">Id</span></label>
+            <div class="col-9">
+              <input id="text" name="text" type="number" value.bind="applicant.id & validate" placeholder="id" required="required"
+                     class="form-control" />
+            </div>
+          </div>
+          <div class="form-group row">
+            <label for="name" class="col-3 col-form-label"><span i18n="Application.Name">Name</span></label>
+            <div class="col-9">
+              <input id="name" name="name" type="text" class="form-control" value.bind="applicant.name" placeholder="Name" />
+            </div>
+          </div>
+          <div class="form-group row">
+            <label for="familyName" class="col-3 col-form-label">
+              <span i18n="Application.FamilyName">
+                Family
+                Name
+              </span>
+            </label>
+            <div class="col-9">
+              <input id="familyName" name="familyName" placeholder="Family Name" type="text" class="form-control"
+                     value.bind="applicant.familyName" />
+            </div>
+          </div>
+          <div class="form-group row">
+            <label for="address" class="col-3 col-form-label"><span i18n="Application.Address">Address</span></label>
+            <div class="col-9">
+              <input type="text" id="address" name="address" placeholder="Address" rows="3" class="form-control"
+                     value.bind="applicant.address" />
+            </div>
+          </div>
+          <div class="form-group row">
+            <label for="country" class="col-3 col-form-label"><span i18n="Application.Country">Country</span></label>
+            <div class="col-9">
+              <input id="country" name="country" placeholder="Country of Origin" type="text" required="required"
+                     class="form-control" value.bind="applicant.countryOfOrigin" />
+            </div>
+          </div>
+          <div class="form-group row">
+            <label for="email" class="col-3 col-form-label"><span i18n="Application.Email">Email</span></label>
+            <div class="col-9">
+              <input id="email" name="email" placeholder="Email Address" type="text" class="form-control"
+                     value.bind="applicant.email & validate" />
+            </div>
+          </div>
+          <div class="form-group row">
+            <label for="age" class="col-3 col-form-label"><span i18n="Application.Age">Age</span></label>
+            <div class="col-9">
+              <input id="age" name="age" placeholder="Age" type="number" class="form-control"
+                     value.bind="applicant.age & validate" />
+            </div>
+          </div>
+          <div class="form-group row">
+            <label class="col-3"></label>
+            <div class="col-9">
+              <div class="custom-control custom-checkbox custom-control-inline">
+                <input name="checkbox" id="checkbox_0" type="checkbox" class="custom-control-input" value="applicant.hired" />
+                <label for="checkbox_0" class="custom-control-label"><span i18n="Application.Hired">Hired</span></label>
+              </div>
+            </div>
+          </div>
+          <div class="form-group row">
+            <div class="offset-3 col-9">
+              <button id="resetButton" name="submit" type="button" class="btn btn-secondary" disabled.bind="!canReset" click.delegate="reset()">
+                ${buttonReset}
+              </button>
+              <button id="saveButton" name="submit" type="button" class="btn btn-primary" disabled.bind="!canSend" click.delegate="validateAndSubmit()">
+                ${buttonSave}
+              </button>
+            </div>
+          </div>
+        </form>
+      </div>
+    </div>
+  </section>
+
+</template>

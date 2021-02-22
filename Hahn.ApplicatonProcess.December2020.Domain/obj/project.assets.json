@@ -1484,11 +1484,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Maxnight\\Desktop\\Hahn-master\\Hahn.ApplicatonProcess.December2020.Domain\\Hahn.ApplicatonProcess.December2020.Domain.csproj",
+      "projectUniqueName": "C:\\Users\\Maxnight\\Desktop\\Hahn-Applicant-Task\\Hahn.ApplicatonProcess.December2020.Domain\\Hahn.ApplicatonProcess.December2020.Domain.csproj",
       "projectName": "Hahn.ApplicatonProcess.December2020.Domain",
-      "projectPath": "C:\\Users\\Maxnight\\Desktop\\Hahn-master\\Hahn.ApplicatonProcess.December2020.Domain\\Hahn.ApplicatonProcess.December2020.Domain.csproj",
+      "projectPath": "C:\\Users\\Maxnight\\Desktop\\Hahn-Applicant-Task\\Hahn.ApplicatonProcess.December2020.Domain\\Hahn.ApplicatonProcess.December2020.Domain.csproj",
       "packagesPath": "C:\\Users\\Maxnight\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Maxnight\\Desktop\\Hahn-master\\Hahn.ApplicatonProcess.December2020.Domain\\obj\\",
+      "outputPath": "C:\\Users\\Maxnight\\Desktop\\Hahn-Applicant-Task\\Hahn.ApplicatonProcess.December2020.Domain\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -1508,8 +1508,8 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
-            "C:\\Users\\Maxnight\\Desktop\\Hahn-master\\Hahn.ApplicatonProcess.December2020.Data\\Hahn.ApplicatonProcess.December2020.Data.csproj": {
-              "projectPath": "C:\\Users\\Maxnight\\Desktop\\Hahn-master\\Hahn.ApplicatonProcess.December2020.Data\\Hahn.ApplicatonProcess.December2020.Data.csproj"
+            "C:\\Users\\Maxnight\\Desktop\\Hahn-Applicant-Task\\Hahn.ApplicatonProcess.December2020.Data\\Hahn.ApplicatonProcess.December2020.Data.csproj": {
+              "projectPath": "C:\\Users\\Maxnight\\Desktop\\Hahn-Applicant-Task\\Hahn.ApplicatonProcess.December2020.Data\\Hahn.ApplicatonProcess.December2020.Data.csproj"
             }
           }
         }

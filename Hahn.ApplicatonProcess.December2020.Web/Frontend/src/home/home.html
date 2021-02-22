@@ -1,0 +1,29 @@
+<template>
+  <require from="../styles/home.css"></require>
+  
+  <div class="row">
+    <div class="col-12 mb-2">
+      <div class="custom-control custom-radio custom-control-inline">
+        <input name="language" id="_0" type="radio" class="custom-control-input"
+               change.trigger="useLanguageChange('en')" checked="checked" />
+        <label for="_0" class="custom-control-label">English</label>
+      </div>
+      <div class="custom-control custom-radio custom-control-inline">
+        <input name="language" id="_1" type="radio" class="custom-control-input"
+               change.trigger="useLanguageChange('de')" />
+        <label for="_1" class="custom-control-label">German</label>
+      </div>
+      <div class="custom-control custom-radio custom-control-inline">
+        <input name="language" id="_2" type="radio" class="custom-control-input"
+               change.trigger="useLanguageChange('pl')" />
+        <label for="_2" class="custom-control-label">Polnisch</label>
+      </div>
+    </div>
+    <div class="col-sm-4" id="create">
+      <compose view-model="../applicants/applicant-create" view="../applicants/applicant-create.html"></compose>
+    </div>
+    <div class="col-sm-8">
+      <compose view-model="../applicants/applicant-list" view="../applicants/applicant-list.html"></compose>
+    </div>
+  </div>
+</template>
